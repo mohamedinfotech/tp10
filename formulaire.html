@@ -1,0 +1,57 @@
+<!DOCTYPE>
+<head>
+    <meta charset="utf-8">
+    <title>Formulaire avec du CSS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <header id="entête">
+ <h1>Formulaire d'inscription</h1>
+ </header>
+ <section id="inscription">
+ <p><img class="icone" src="signup.png"></p>
+ <h1> Inscrivez-vous</h1>
+ <p id="p1">Veuillez remplir les champs ci-dessous, en mentionnant une
+ adresse e-mail valide.
+ </p>
+ <form class="envoi" action="" method="post">
+<p>
+ <label>Nom*</label>
+ <input id="name" type="text" name="name" value="" /></p>
+</p>
+<p>
+ <label>Prénom*</label>
+ <input id="prenom" type="text" name="prenom" value="" />
+</p>
+<p>
+ <label>Email*</label>
+ <input id="email" type="email" name="email" value="" />
+</p>
+<p>
+ <label>Téléphone</label>
+ <input id="tel" type="tel" name="phone" value="" />
+</p>
+<p>
+ <label>Pays</label>      
+  <input list="liste_pays" id="pays" name="pays" />
+  <datalist id="liste_pays" name="liste_pays">
+    <option value="Algérie">
+    <option value="Allemagne">
+    <option value="Argentine">
+    <option value="Canada">
+    <option value="Italie">
+    <option value="Mexique">
+    <option value="Maroc">
+    <option value="Tunisie">
+    <option value="USA">
+  </datalist>
+</p>
+<p>
+ <button class="bt" type="reset" value="Annuler">Annuler</button>
+ <button class="bt" type="submit" value="Envoyer">Envoyer</button>
+</p> 
+
+ </form>
+</section>
+</body>
+</html>

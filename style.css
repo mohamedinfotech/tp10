@@ -1,0 +1,77 @@
+*{
+padding: 0;
+margin: 0;
+}
+body {
+background-image:url('wood.jpg');
+
+}
+#entête {
+ background-color:#212121;
+ height:70px;
+ width:100%;
+ position:relative;
+}
+#entête h1{
+ font-size:22px;
+ font-weight:normal;
+ color:#FFFFFF;
+ padding:22px;
+ position:absolute;
+ left:25%;
+ }
+#p1{
+    text-indent: 30px;
+    text-align: justify;
+    font-size: 1.2em;
+}
+.icone {
+float: right;
+width: 48px;
+height: 48px;
+}
+#inscription {
+width: 510px;
+margin: 0 auto;
+margin-top: 50px;
+margin-bottom: 50px;
+background:#C9C9C9;
+padding: 40px;
+border: 10px solid #f2f2f2;
+border-radius: 5%;
+}
+input {
+
+border: 1px solid #C9C9C9;
+color: #545658;
+padding: 8px;
+font-size: 14px;
+border-radius: 2px 2px 2px 2px;
+width: 95%;
+}
+.bt {
+border: 1px solid #B7D6DF;
+border-radius: 2px 2px 2px 2px;
+box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+color: #437182;
+cursor: pointer;
+font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+font-size: 14px;
+font-weight: bold;
+height: auto;
+padding: 6px 10px;
+text-shadow: 0 1px 0 #FFFFFF;
+width: auto;
+ float:right;
+ margin:2px;
+}
+.bt:hover
+{
+	box-shadow: 10px 10px 20px grey;
+	color:#4CAF50;
+}
+
+label {
+margin-bottom: 5px;
+font-weight: bold;
+font-size: 1.1em; }
